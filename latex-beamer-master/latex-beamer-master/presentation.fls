@@ -1,8 +1,8 @@
-PWD c:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master
+PWD d:/Github_Paractice/Presentation/Presentation-/latex-beamer-master/latex-beamer-master
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/presentation.tex
+INPUT d:/Github_Paractice/Presentation/Presentation-/latex-beamer-master/latex-beamer-master/presentation.tex
 OUTPUT presentation.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  12 FEB 2026 19:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  17 MAR 2026 08:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/presentation.tex
-(c:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/presentation.tex
+**d:/Github_Paractice/Presentation/Presentation-/latex-beamer-master/latex-beamer-master/presentation.tex
+(d:/Github_Paractice/Presentation/Presentation-/latex-beamer-master/latex-beamer-master/presentation.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
 (c:/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1153,14 +1153,14 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  29441 strings out of 467538
- 572769 string characters out of 5423724
- 966058 words of memory out of 5000000
+ 572832 string characters out of 5423724
+ 966018 words of memory out of 5000000
  57675 multiletter control sequences out of 15000+600000
  684114 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,123p,485b,975s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,18n,123p,508b,975s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (9 pages, 882204 bytes).
+Output written on presentation.pdf (9 pages, 878622 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream
