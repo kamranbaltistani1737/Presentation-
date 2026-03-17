@@ -1,20 +1,21 @@
 # Fdb version 4
-["bibtex presentation"] 1773732983.98314 "presentation.aux" "presentation.bbl" "presentation" 1773732984.66572 2
+["bibtex presentation"] 1773733314.98886 "presentation.aux" "presentation.bbl" "presentation" 1773733326.2589 0
   "./references.bib" 1773731498 579 7c3340eb45a5a86966b7ef5b926f88f9 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/base/alpha.bst" 1763479760 23907 a5f93555796fb564b924339521f10a7c ""
-  "presentation.aux" 1773732975 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "presentation.aux" 1773733324 2266 d58273d32cf48f037d766e19fe8e8c35 "pdflatex"
   (generated)
   "presentation.bbl"
   "presentation.blg"
   (rewritten before read)
-["pdflatex"] 1773732978.07166 "d:/Github_Paractice/Presentation/Presentation-/latex-beamer-master/latex-beamer-master/presentation.tex" "presentation.pdf" "presentation" 1773732982.5578 2
+["pdflatex"] 1773733321.64986 "d:/Github_Paractice/Presentation/Presentation-/latex-beamer-master/latex-beamer-master/presentation.tex" "presentation.pdf" "presentation" 1773733326.25984 2
   "C:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/hardware.jpg" 0 -1 0 ""
   "Electrical.tex" 1773732825 2644 a2b16716b25d2da9bd8364746372db6c ""
   "Introduction.tex" 1773731498 169 f6ffb8d863176ada7a27a992a5bf2f0e ""
-  "Mechanical.tex" 1773732973 277 ff6b7e29f3c57764ff98e1f29a8bfaab ""
+  "Mechanical.tex" 1773733312 285 9313feafd09fc69185918cba7f52c5ac ""
   "Reference.tex" 1773731498 251 a3de062fe871e19e33aab11e00e941b0 ""
   "Software.tex" 1773731498 172 7c734fa4f259f3124ed245d26634af6a ""
   "c:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/driver.jpg" 1770916702 131579 fa63617b30828aa418e974df73e0b299 ""
+  "c:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/electricaldesign.jpg" 1770904390 29732 58ccdaf77452d8aa65e82d0a47c4eec6 ""
   "c:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/esp.jpg" 1770916662 85222 e4a88fbbace582e33ce6048a86352337 ""
   "c:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/imu.jpg" 1770916729 76617 e52d290b805827c4ad24e31b8438063d ""
   "c:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/motor.jpg" 1770916674 47948 a327de7132f5f447399480ea45e90fd6 ""
@@ -281,10 +282,10 @@
   "concluding.tex" 1773731498 214 b4e08d2a68c1e74efca5576285a431da ""
   "content.tex" 1773731498 233 133b254560bd2ff44822c77ca89c3eb0 ""
   "d:/Github_Paractice/Presentation/Presentation-/latex-beamer-master/latex-beamer-master/presentation.tex" 1773732070 1182 46dd445d43b52516a108ac8325883daa ""
-  "presentation.aux" 1773732975 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "presentation.bbl" 1773732984 0 d41d8cd98f00b204e9800998ecf8427e "bibtex presentation"
-  "presentation.nav" 1773732980 1011 83c4ff004b77303d878240d0bcc95e05 "pdflatex"
-  "presentation.out" 0 -1 0 "pdflatex"
+  "presentation.aux" 1773733324 2266 d58273d32cf48f037d766e19fe8e8c35 "pdflatex"
+  "presentation.bbl" 1773733315 488 1b69885523c8880e2660499deb0f3a3c "bibtex presentation"
+  "presentation.nav" 1773733324 1011 83c4ff004b77303d878240d0bcc95e05 "pdflatex"
+  "presentation.out" 1773733323 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "presentation.tex" 1773732070 1182 46dd445d43b52516a108ac8325883daa ""
   "theme/DescartesBeamer.sty" 1773731498 4324 0e8b18dec87f481a8735476e40d9030e ""
   "theme/UniWue-banner.png" 1773731498 140035 f2a8aa0454a208021d3bbe1b94f2e445 ""
