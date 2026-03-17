@@ -1,0 +1,46 @@
+\begin{frame}
+    \frametitle{Electrical Design}
+\begin{columns}[T]   % <-- important (Top alignment)
+
+\column{0.6\textwidth}
+    Main electrical component used to design this project are.
+    \begin{itemize}
+        \item[$\diamond$] Two microcontrollers
+        \begin{itemize}[label=$\checkmark$]
+        \item STM32F401: Primary Controller with extensive GPIO.
+	    \item DFRobot Beetle ESP32 C6: For wireless communication with ground station.
+        \end{itemize}
+        \item[$\diamond$] Motor Driver : Receives PWM control signals from the STM32 and uses the high-power battery supply to generate controlled three-phase outputs for regulating the motor speed. 
+        \item[$\diamond$] 3x T-Motor GB2208:Three phase motors act as reaction wheels, producing controlled torques to regulate the FloatSat’s roll, pitch, and yaw orientation.
+    \end{itemize}
+    \column{0.4\textwidth}
+     \centering
+    \includegraphics[width=3.2cm,height=2.1cm,keepaspectratio]{C:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/stm.jpg}
+    \includegraphics[width=3.2cm,height=2.1cm,keepaspectratio]{C:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/esp.jpg}
+    \includegraphics[width=3.2cm,height=2.1cm,keepaspectratio]{C:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/driver.jpg}\par\vspace{1mm}
+    \includegraphics[width=3.2cm,height=2.1cm,keepaspectratio]{C:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/motor.jpg}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{Electrical Design}
+\begin{columns}[T]   % <-- important (Top alignment)
+
+\column{0.6\textwidth}
+     \begin{itemize}
+        \item[$\diamond$] Sparkfun LSM9DS1: 9-DOF IMU that measures the motion and orientation of the FloatSat by combining accelerometer, gyroscope, and magnetometer data.  
+        \item[$\diamond$] Battery Management Board: Power management module supplying regulated 3.3 V, 5 V, and 12 V outputs to different subsystems.
+        \item[$\diamond$] Lithium-Polymer Battery 
+    \end{itemize}
+        \column{0.4\textwidth}
+        \centering
+    \includegraphics[width=3.2cm,height=2.1cm,keepaspectratio]{C:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/imu.jpg}
+    \includegraphics[width=3.2cm,height=2.1cm,keepaspectratio]{C:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/power.jpg}
+    \includegraphics[width=3.2cm,height=2.1cm,keepaspectratio]{C:/Users/DeLL/Downloads/latex-beamer-master/latex-beamer-master/theme/battery.jpg}\par\vspace{1mm}
+
+\end{columns}
+
+    
+\end{frame}

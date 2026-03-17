@@ -1,0 +1,9 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{HZZ{\etalchar{+}}20}
+
+\bibitem[HZZ{\etalchar{+}}20]{HeZeZuKrKo-FGMLN2020-Prediction-of-Mobile-Network-Connectivity}
+Stefan Herrnleben, Bernd Zeidler, Marwin Z{ü}fle, Christian Krupitzer, and Samuel Kounev.
+\newblock {A Concept for Crowd-sensed Prediction of Mobile Network Connectivity}.
+\newblock In {\em GI/ITG Workshop on Machine Learning in the Context of Communication Networks 2020}, February 2020.
+
+\end{thebibliography}

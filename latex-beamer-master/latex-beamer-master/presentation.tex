@@ -1,0 +1,45 @@
+\documentclass[aspectratio=169,xcolor=dvipsnames,10pt]{beamer}
+\usepackage{theme/DescartesBeamer}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage{pgfpages}
+\usepackage{listings}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{diagbox}
+\usepackage{marvosym} % \MVRIGHTarrow
+\usepackage{stmaryrd} % \shortrightarrow
+\usepackage{textcomp} % \textrightarrow
+\usepackage[absolute,overlay]{textpos}
+\usepackage{todonotes}
+\usepackage{tikz}
+\usepackage{graphicx}
+
+
+\setbeameroption{hide notes} % Only slides
+%\setbeameroption{show only notes} % Only notes
+%\setbeameroption{show notes on second screen=right} % Both
+
+\setbeamercovered{invisible}
+
+%Information to be included in the title page:
+\title{Presentation Title}
+\subtitle{Floatsat Winter Semester 2025-26 Group II}
+\author{Julius, Mehmet, Basel, Johnas, Hamza, kamran}
+%\date{\today}
+\website{}
+
+\begin{document}
+
+\frame[plain]{\titlepage}
+
+\input{content.tex}
+\input{Introduction.tex}
+\input{Electrical.tex}
+\input{Mechanical.tex}
+\input{Software.tex}
+\input{concluding.tex}
+\input{Reference.tex}
+\end{document}

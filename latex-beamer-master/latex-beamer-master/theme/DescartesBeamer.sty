@@ -1,0 +1,131 @@
+% LaTeX Beamer template of Chair of Computer Science II, University of Wuerzburg
+% 
+% Contributors:
+% 2021 - Stefan Herrnleben: Created from scratch. Design based on existing PowerPoint template.
+
+\usetheme{Rochester}
+
+\newcommand\website[1]{\renewcommand\@website{#1}}
+\newcommand\@website{\@latex@error{No \noexpand\website given}\@ehc}
+
+\RequirePackage{pgf}
+
+\pgfdeclareimage[height=8mm]{uniwue-full}{theme/UniWue-full.pdf}
+\pgfdeclareimage[height=12mm]{uniwue-banner}{theme/UniWue-banner.png}
+\pgfdeclareimage[height=8mm]{uniwue-short}{theme/UniWue-short.pdf}
+%\pgfdeclareimage[height=12mm]{descartes-full}{theme/Descartes-full.pdf}
+%\pgfdeclareimage[height=8mm]{descartes-short}{theme/Descartes-short.pdf}
+
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamercovered{transparent}
+
+\beamer@headheight=0.13\paperwidth
+
+\definecolor{uniwuelightgray}{HTML}{D2D4D5}
+\definecolor{uniwueblue}{HTML}{1F5394}
+
+\setbeamercolor*{Title bar}{fg=black}
+\setbeamercolor*{footer}{fg=black}
+\setbeamercolor*{frametitle}{parent=Title bar}
+\setbeamercolor*{block title}{bg=uniwueblue,fg=white}
+\setbeamercolor*{block body}{bg=uniwuelightgray, fg=black}
+\setbeamercolor*{normal text}{bg=white,fg=black}
+\setbeamercolor*{title}{bg=,fg=uniwueblue}
+\setbeamercolor*{subtitle}{bg=,fg=black}
+\setbeamerfont{title}{size=\LARGE,series=\bfseries}
+\setbeamerfont{subtitle}{size=\large,series=\bfseries}
+\setbeamerfont{author}{size=\small}
+
+\setbeamercolor*{section in head/foot}{bg=uniwuelightgray,fg=uniwueblue}
+
+\usecolortheme[named=uniwueblue]{structure}
+
+\pgfdeclarehorizontalshading{footershading}{8mm}{%
+	color(0pt)=(white); color(\paperwidth)=(black!20)%
+}
+
+\setbeamerfont{section in head/foot}{size=\tiny,series=\normalfont}
+\setbeamerfont{frametitle}{size=\large}
+\setbeamerfont{caption}{size=\scriptsize}
+
+\setbeamersize{text margin left=7mm,text margin right=7mm}
+
+% disable navigation
+\beamertemplatenavigationsymbolsempty
+
+\defbeamertemplate*{title page}{Descartes}[1][]
+{
+	\begin{center}
+		\makebox[\textwidth]{\includegraphics[width=\paperwidth]{theme/UniWue-banner.png}}	
+		%\begin{tikzpicture}[remember picture,overlay]
+			%\node[xshift=-22mm,yshift=-13mm] at (current page.north east){%
+				%\includegraphics[height=10mm]{theme/Descartes-full.pdf}};
+		%\end{tikzpicture}
+		
+	\end{center}
+	
+	\vfill
+	\begingroup
+	\centering
+	\begin{beamercolorbox}[sep=8pt,center,#1]{title}
+		\usebeamerfont{title}\inserttitle
+	\end{beamercolorbox}
+	\begin{beamercolorbox}[sep=8pt,center,#1]{subtitle}
+		\usebeamerfont{subtitle}\usebeamercolor{subtitle}\insertsubtitle
+	\end{beamercolorbox}
+	\vskip0.5em\par
+	\begin{beamercolorbox}[sep=8pt,center,#1]{author}
+		\usebeamerfont{author}\insertauthor
+	\end{beamercolorbox}
+	\begin{beamercolorbox}[sep=8pt,center,#1]{date}
+		\usebeamerfont{date}\insertdate
+	\end{beamercolorbox}\vskip0.2em
+	\begin{beamercolorbox}[sep=8pt,center,#1]{website}
+		\footnotesize\href{\@website}{\@website}
+	\end{beamercolorbox}\vskip0.5em
+	{\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+	\endgroup
+	\vfill
+}
+
+\setbeamertemplate{frametitle}{
+	\centering
+	\usebeamerfont*{frametitle}\insertframetitle
+	\vskip-0.2em
+	\usebeamerfont*{framesubtitle}\insertframesubtitle
+	\vphantom{g}
+	\vskip-0.4em
+	\hrule
+}
+
+% slide headline
+\setbeamertemplate{headline}{
+		\begin{beamercolorbox}
+			[ht=2pt]{Title bar}
+		\end{beamercolorbox}
+}
+
+\setbeamertemplate{footline}{
+%\tikz\fill[path] (0,0) rectangle (.45\paperwidth,0.5);
+	\begin{beamercolorbox}[wd=\paperwidth,ht=8mm]{footer}
+		\par%
+		\begin{tikzpicture}[remember picture, overlay, shift={(current page.south west)}]%
+			\draw(-2pt,-3pt) node[anchor=south west] {\pgfuseshading{footershading}};%
+			\draw(-3pt,-3pt) node[anchor=south west] {\pgfuseimage{uniwue-full}};%
+		\end{tikzpicture}
+		%\par
+		%\raisebox{-20mm}{\pgfuseshading{footershading}}
+		%\par
+		%\raisebox{-\baselineskip}{\pgfuseimage{uniwue-short}}
+		\hspace*{8mm}% placeholder for UniWue logo
+		\parbox[b][7mm][c]{0.85\textwidth}{%
+			\centering\textbf{\insertshorttitle}\\
+			\centering{\insertauthor}
+			%\centering{\insertshortauthor}
+		}
+		\parbox[b][7mm][c]{0.07\textwidth}{%
+		\raggedleft
+			\insertframenumber/\inserttotalframenumber
+		}
+	\end{beamercolorbox}
+}
